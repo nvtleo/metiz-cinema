@@ -41,21 +41,7 @@ function Detail() {
                         <div className={css["info-text"]}>
                             <S.Name> {detail?.tenPhim}</S.Name>
                             <S.Info> {detail?.moTa}</S.Info>
-                            <S.Info style={{ display: "flex" }}>
-                                <p>Trailer : </p>
-                                <Link
-                                    to={detail?.trailer}
-                                    onClick={() => {
-                                        history.push("https://www.youtube.com/watch?v=1234567890");
-                                    }}
-                                    target="_blank"
-                                >
-                                    {detail?.trailer}
-                                </Link>
-                            </S.Info>
-
-
-
+                            <S.Info> <p>Trailer</p>{detail?.trailer}</S.Info>
                         </div>
                     </div>
                 </div>

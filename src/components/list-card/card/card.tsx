@@ -1,7 +1,7 @@
 import React from 'react'
 import css from "./card.module.css";
 import { useNavigate } from "react-router-dom";
-// import { string } from 'yup';
+import { string } from 'yup';
 import * as S from "./style.ts";
 export type Tcard = {
     mp: number;
