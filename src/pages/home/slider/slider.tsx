@@ -15,10 +15,6 @@ export function Slider() {
                 <div>
                     <img style={contentStyle} src="http://movieapi.cyberlearn.vn/hinhanh/cuoc-chien-sinh-tu.png" alt="" />
                 </div>
-                <div>
-                    <img style={contentStyle} src="/src/assets/img/phim-hay-thang-11-2023-tai-metiz-cinema.jpg" alt="" />
-                </div>
-                {/* <p></p> */}
             </Carousel >
         </>
     )

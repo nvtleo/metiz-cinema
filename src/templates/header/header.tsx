@@ -15,7 +15,7 @@ function Header() {
     // const { cart } = useAppSelector((rootReducer) => rootReducer.cartsReducer);
     const { login } = useAppSelector((rootReducer) => rootReducer.userReducer);
     const dispatch = useDispatch();
-
+    const imagelogo = "/assets/img/METIZ_LOGO_WEB.png";
 
     return (
         <>
@@ -25,7 +25,8 @@ function Header() {
                 </div>
                 <div className={css["header-info"]}></div>
                 <div className={css["header-img"]}>
-                    <img src="/src/assets/img/METIZ_LOGO_WEB.png" alt="" />
+                    {/* <img src="/src/assets/img/METIZ_LOGO_WEB.png" alt="" /> */}
+                    <img src={imagelogo} alt="" />
                 </div>
                 <div className={css["header-movie"]}>
                     <Link className={css["header-text"]} to={"."}>LỊCH CHIẾU</Link>
