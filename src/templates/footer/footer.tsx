@@ -4,8 +4,6 @@ import IconYT from '../../assets/icon/icon-footer'
 import IconInsta from '../../assets/icon/icon-insta'
 import IconFB from '../../assets/icon/icon-fb'
 function Footer() {
-    const imagePath = "../../assets/img/logo_bottom.png";
-    const imagemetiz = "../../assets/img/logo_footer.png"
     return (
         <footer>
             <div className={css["footer-icon"]}>
@@ -24,7 +22,7 @@ function Footer() {
             <div className={css["footer-bg"]}>
                 <div className={css["metiz-footer"]}>
                     <div className={css["area"]}>
-                        <img src="/src/assets/img/logo_footer.png" alt="" />
+                        <img src="/dist/assets/img/logo_footer.png" alt="" />
                         <span>TẦNG 1 HELIO CENTER,</span>
                         <span>ĐƯỜNG 2/9, HẢI CHÂU,</span>
                         <span>ĐÀ NẴNG</span>
@@ -43,7 +41,7 @@ function Footer() {
                         <p>ĐIỀU KHOẢN GIAO DỊCH</p>
                     </div>
                     <div className={css["footer-img"]}>
-                        <img src="/src/assets/img/phim-hay-thang-11-2023-tai-metiz-cinema.jpg" alt="" />
+                        <img src="/dist/assets/img/phim-hay-thang-11-2023-tai-metiz-cinema.jpg" alt="" />
                     </div>
                 </div>
 
@@ -57,13 +55,13 @@ function Footer() {
                     </div>
                     <div className={css["company-img"]}>
                         {/* <img src="/src/assets/img/icon-notify.png" alt="" /> */}
-                        <img src={imagemetiz} alt="" />
+                        <img src="/dist/assets/img/icon-notify.png" alt="" />
                     </div>
                 </div>
                 <hr className={css["footer-hr"]} />
                 <div className={css["footer-end"]}>
                     <p>MỘT SẢN PHẨM ĐẾN TỪ KHỞI PHÁT, LTD.</p>
-                    <img src={imagePath} alt="" />
+                    <img src="/dist/assets/img/logo_bottom.png" alt="" />
                     {/* <img src="/src/assets/img/logo_bottom.png" alt="" /> */}
                     <p>BẢN QUYỀN © 2017 METIZ CINEMA</p>
                 </div>
