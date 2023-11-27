@@ -4,8 +4,8 @@ import IconYT from '../../assets/icon/icon-footer'
 import IconInsta from '../../assets/icon/icon-insta'
 import IconFB from '../../assets/icon/icon-fb'
 function Footer() {
-    const imagePath = "/assets/img/logo_bottom.png";
-    const imagemetiz = "/assets/img/logo_footer.png"
+    const imagePath = "../../assets/img/logo_bottom.png";
+    const imagemetiz = "../../assets/img/logo_footer.png"
     return (
         <footer>
             <div className={css["footer-icon"]}>

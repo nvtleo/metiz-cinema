@@ -15,7 +15,7 @@ function Header() {
     // const { cart } = useAppSelector((rootReducer) => rootReducer.cartsReducer);
     const { login } = useAppSelector((rootReducer) => rootReducer.userReducer);
     const dispatch = useDispatch();
-    const imagelogo = "/assets/img/METIZ_LOGO_WEB.png";
+    const imagelogo = "../../assets/img/METIZ_LOGO_WEB.png";
 
     return (
         <>
