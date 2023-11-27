@@ -18,6 +18,7 @@ export function Slider() {
                 <div>
                     <img style={contentStyle} src="/src/assets/img/phim-hay-thang-11-2023-tai-metiz-cinema.jpg" alt="" />
                 </div>
+                {/* <p></p> */}
             </Carousel >
         </>
     )
