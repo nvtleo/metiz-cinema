@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react'
+// import React, { useEffect, useRef, useState } from 'react'
 import css from "./footer.module.css"
 import IconYT from '../../assets/icon/icon-footer'
 import IconInsta from '../../assets/icon/icon-insta'

@@ -23,6 +23,7 @@ const cartSlice = createSlice({
             // Nếu dùng: phải tự clone
         },
         removeItem: (state, action) => {
+            console.log(action)
             return state;
         },
     },

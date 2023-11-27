@@ -1,8 +1,8 @@
-import React from 'react'
+// import React from 'react'
 import css from "./header.module.css"
 import { Link, useNavigate } from "react-router-dom"
 import { useAppSelector } from '../../redux/hook';
-import { loginSuccess, setLogin } from "../../redux/userSlice";
+import { setLogin } from "../../redux/userSlice";
 import { removeLocal } from '../../util';
 import { ACCESS_TOKEN } from '../../const';
 import { useDispatch } from "react-redux";
@@ -12,10 +12,7 @@ function Show({ when, fallback, children }: any) {
 }
 function Header() {
     const navigate = useNavigate();
-    const handleNavigate = () => {
-        navigate("/register")
-    };
-    const { cart } = useAppSelector((rootReducer) => rootReducer.cartsReducer);
+    // const { cart } = useAppSelector((rootReducer) => rootReducer.cartsReducer);
     const { login } = useAppSelector((rootReducer) => rootReducer.userReducer);
     const dispatch = useDispatch();
 

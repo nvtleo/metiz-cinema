@@ -1,7 +1,8 @@
-import { Input, Col, Row, Radio, RadioChangeEvent } from "antd";
-import { useState } from "react";
+import { Input, Col, Row, Radio } from "antd";
+// import { useState } from "react";
 import { useFormik } from "formik";
 const validate = (values: any) => {
+    console.log(validate)
     type A = typeof values; // typeof để lấy Type của giá trị values.
     type B = keyof A; // keyof: lấy property của kiểu dữ liệu
     const errors: Record<B, string> = {};

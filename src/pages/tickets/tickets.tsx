@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import { useState, useEffect } from "react";
 import { getTickets } from '../../service/product.service';
 import { IIFE } from '../../util';
